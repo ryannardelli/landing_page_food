@@ -4,15 +4,16 @@ export const Header = () => {
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
         <a
           href="https://flowbite.com"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          className="flex items-center gap-3 rtl:space-x-reverse transition-all duration-300 transform hover:scale-105"
         >
           <span className="self-center text-2xl font-extrabold whitespace-nowrap tracking-widest uppercase dark:text-white">
-            <span className="font-extrabold bg-colorPrimary p-1 rounded-md text-white">
+            <span className="font-extrabold bg-red-600 p-2 rounded-md text-white shadow-md hover:shadow-lg">
               F
             </span>
-            ood
+            <span className="ml-1 text-gray-800 dark:text-gray-200">ood</span>
           </span>
         </a>
+
         <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
           <a
             href="#"
