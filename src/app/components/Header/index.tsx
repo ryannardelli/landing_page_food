@@ -1,3 +1,5 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 export const Header = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -15,12 +17,24 @@ export const Header = () => {
         </a>
 
         <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
-          <a
-            href="#"
-            className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
-          >
-            Login
-          </a>
+          <div className="flex space-x-4">
+            <a
+              href="#"
+              className="flex items-center justify-center w-12 h-12 text-white bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 rounded-full shadow-md transition-all duration-300 transform hover:scale-110 hover:shadow-lg focus:ring-4 focus:ring-pink-300 focus:outline-none"
+              aria-label="Instagram"
+            >
+              <i className="bi bi-instagram text-2xl"></i>
+            </a>
+
+            <a
+              href="#"
+              className="flex items-center justify-center w-12 h-12 text-white bg-blue-500 rounded-full shadow-md transition-all duration-300 transform hover:scale-110 hover:shadow-lg focus:ring-4 focus:ring-blue-300 focus:outline-none"
+              aria-label="Twitter"
+            >
+              <i className="bi bi-twitter text-2xl"></i>
+            </a>
+          </div>
+
           <a
             href="#"
             className="text-white font-medium flex items-center gap-2 bg-gradient-to-r from-colorPrimary to-red-600 hover:from-colorPrimary hover:to-red-500 focus:ring-4 focus:ring-red-300 rounded-full text-xl px-6 py-3 md:px-7 md:py-3.5 shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 focus:outline-none"
