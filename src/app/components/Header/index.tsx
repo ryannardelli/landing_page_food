@@ -7,7 +7,10 @@ export const Header = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <span className="self-center text-2xl font-extrabold whitespace-nowrap tracking-widest uppercase dark:text-white">
-            <span className="font-extrabold bg-colorPrimary p-1 rounded-md text-white">F</span>ood
+            <span className="font-extrabold bg-colorPrimary p-1 rounded-md text-white">
+              F
+            </span>
+            ood
           </span>
         </a>
         <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -19,7 +22,7 @@ export const Header = () => {
           </a>
           <a
             href="#"
-            className="text-white font-medium flex items-center gap-2 bg-colorPrimary hover:bg-assets focus:ring-4 focus:ring-colorPrimary font-medium rounded-lg text-xl px-4 py-2 md:px-5 md:py-2.5 dark:bg-colorPrimary dark:hover:bg-colorPrimary focus:outline-none dark:focus:bg-colorPrimary rounded-full"
+            className="text-white font-medium flex items-center gap-2 bg-gradient-to-r from-colorPrimary to-red-600 hover:from-colorPrimary hover:to-red-500 focus:ring-4 focus:ring-red-300 rounded-full text-xl px-6 py-3 md:px-7 md:py-3.5 shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 focus:outline-none"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +30,7 @@ export const Header = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.8}
               stroke="currentColor"
-              className="size-5"
+              className="w-6 h-6"
             >
               <path
                 strokeLinecap="round"
@@ -37,6 +40,7 @@ export const Header = () => {
             </svg>
             Contato
           </a>
+
           <button
             data-collapse-toggle="mega-menu-icons"
             type="button"
