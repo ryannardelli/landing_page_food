@@ -12,8 +12,8 @@ export const Hero = () => {
               <span className="text-colorPrimary">Food</span>
             </h1>
             <p className="mb-8 px-4 lg:px-0 leading-relaxed dark:text-gray-300 font-medium text-2xl tracking-wide">
-              Onde cada prato tece uma história de maestria culinária e artesanato
-              apaixonado
+              Onde cada prato tece uma história de maestria culinária e
+              artesanato apaixonado
             </p>
             <div className="flex justify-center lg:justify-start">
               <a
