@@ -38,23 +38,19 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="relative w-full h-screen">
-        <div className="absolute -top-24 right-4 left-96 lg:block hidden">
-          <MiniCard
-            name="Batata Frita"
-            price={12}
-            img="img/img-mini-card-1.png"
-            stars={3}
-          />
-        </div>
-        <div className="absolute -top-24 right-40 lg:block hidden">
-          <MiniCard
-            name="Hamburguer"
-            price={22}
-            img="img/img-mini-card-2.png"
-            stars={4}
-          />
-        </div>
+      <div className="flex justify-end mr-[10%] -mt-[8%] hidden sm:flex">
+        <MiniCard
+              name="Batata Frita"
+              price={12}
+              img="img/img-mini-card-1.png"
+              stars={3}
+            />
+        <MiniCard
+              name="Hamburguer"
+              price={22}
+              img="img/img-mini-card-2.png"
+              stars={4}
+            />
       </div>
     </section>
   );
