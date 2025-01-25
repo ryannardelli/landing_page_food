@@ -1,3 +1,4 @@
+import { MiniCard } from "../MiniCard";
 export const Hero = () => {
   return (
     <section className="text-gray-600 body-font bg-white dark:bg-slate-900 font-inter">
@@ -36,17 +37,24 @@ export const Hero = () => {
             />
           </div>
         </div>
-
-        {/* <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-full flex justify-center">
-          <div>
-            <div className="inset-0 rounded-full border-colorPrimary"></div>
-            <img
-              className="object-cover object-center rounded-full bg-colorPrimary"
-              alt="Image Hero"
-              src="/img/image-hero.png"
-            />
-          </div>
-        </div> */}
+      </div>
+      <div className="relative w-full h-screen">
+        <div className="absolute -top-24 right-4 left-96 lg:block hidden">
+          <MiniCard
+            name="Batata Frita"
+            price={12}
+            img="img/img-mini-card-1.png"
+            stars={3}
+          />
+        </div>
+        <div className="absolute -top-24 right-40 lg:block hidden">
+          <MiniCard
+            name="Hamburguer"
+            price={22}
+            img="img/img-mini-card-2.png"
+            stars={4}
+          />
+        </div>
       </div>
     </section>
   );
