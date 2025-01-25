@@ -21,11 +21,16 @@ export const MiniCard = ({ name, price, img, stars }: CustomMiniCardProps) => {
           alt="product image"
         />
         <div className="p-2 flex flex-col justify-between gap-1">
-          <h3 className="text-lg font-medium text-gray-700 leading-4">{name}</h3>
+          <h3 className="text-lg font-medium text-gray-700 leading-4">
+            {name}
+          </h3>
           <div className="pb-0">
             <CustomRating rating={rating} />
           </div>
-          <p><span className="text-colorPrimary text-base">R$</span> <span className="text-xl font-semibold">{price},00</span></p>
+          <p>
+            <span className="text-colorPrimary text-base">R$</span>{" "}
+            <span className="text-xl font-semibold">{price},00</span>
+          </p>
         </div>
       </div>
     </div>
