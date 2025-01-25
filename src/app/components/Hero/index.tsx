@@ -1,6 +1,7 @@
 import { MiniCard } from "../MiniCard";
 import { Bubble } from "../Bubble";
 import { SectionBestSeller } from "../SectionBestSeller";
+import { SectionHighlight } from "../SectionHighlight";
 export const Hero = () => {
   return (
     <>
@@ -62,6 +63,7 @@ export const Hero = () => {
         </div>
       </section>
       <SectionBestSeller />;
+      <SectionHighlight />;
     </>
   );
 };
