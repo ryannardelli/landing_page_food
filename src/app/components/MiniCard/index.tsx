@@ -14,7 +14,7 @@ export const MiniCard = ({ name, price, img, stars }: CustomMiniCardProps) => {
 
   return (
     <div className="flex justify-center mx-2">
-      <div className="px-2 py-2 flex bg-white rounded-lg drop-shadow-sm overflow-hidden w-60 transform transition-transform border-gray-200 border items-center">
+      <div className="px-2 py-2 flex bg-white rounded-xl drop-shadow-sm overflow-hidden w-60 transform transition-transform items-center border-0 shadow-lg">
         <img
           className="aspect-square h-16 object-cover rounded-lg"
           src={img}
