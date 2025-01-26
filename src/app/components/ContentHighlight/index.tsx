@@ -1,7 +1,7 @@
 "use client";
 import { PaginationButtons } from "../PaginationButtons";
 import { useRef } from "react";
-import { Swiper } from 'swiper';
+import { Swiper } from "swiper";
 
 export const ContentHighlight = () => {
   const swiperRef = useRef<Swiper | null>(null);

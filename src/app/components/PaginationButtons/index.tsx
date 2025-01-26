@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
 interface PaginationButtonsProps {
   onPrev: React.MouseEventHandler<HTMLButtonElement>;
   onNext: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-export const PaginationButtons: React.FC<PaginationButtonsProps> = ({ onPrev, onNext }) => {
+export const PaginationButtons: React.FC<PaginationButtonsProps> = ({
+  onPrev,
+  onNext,
+}) => {
   return (
     <div className="inline-flex hidden items-center justify-center gap-4 py-3 lg:flex">
       <button
