@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { CardHighlight } from "../CardHighlight";
 import "swiper/css";
 import "./styles.css";
+
 export const Slider = () => {
   return (
     <>
@@ -14,7 +15,9 @@ export const Slider = () => {
             altImg={"Lasanha"}
             nameProdutc={"Lasanha"}
             price={15}
-            description={"Camadas de massa, molho cremoso e queijo derretido, puro sabor!"}
+            description={
+              "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -23,7 +26,9 @@ export const Slider = () => {
             altImg={"Açaí"}
             nameProdutc={"Açaí"}
             price={12}
-            description={"Açaí cremoso com toppings irresistíveis, energia e frescor!"}
+            description={
+              "Açaí cremoso com toppings irresistíveis, energia e frescor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -32,7 +37,9 @@ export const Slider = () => {
             altImg={"Salada"}
             nameProdutc={"Salada"}
             price={10}
-            description={"Salada fresca e colorida com ingredientes saudáveis e saborosos!"}
+            description={
+              "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -41,7 +48,9 @@ export const Slider = () => {
             altImg={"Lasanha"}
             nameProdutc={"Lasanha"}
             price={15}
-            description={"Camadas de massa, molho cremoso e queijo derretido, puro sabor!"}
+            description={
+              "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -50,7 +59,9 @@ export const Slider = () => {
             altImg={"Açaí"}
             nameProdutc={"Açaí"}
             price={12}
-            description={"Açaí cremoso com toppings irresistíveis, energia e frescor!"}
+            description={
+              "Açaí cremoso com toppings irresistíveis, energia e frescor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -59,7 +70,9 @@ export const Slider = () => {
             altImg={"Salada"}
             nameProdutc={"Salada"}
             price={10}
-            description={"Salada fresca e colorida com ingredientes saudáveis e saborosos!"}
+            description={
+              "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -68,7 +81,9 @@ export const Slider = () => {
             altImg={"Lasanha"}
             nameProdutc={"Lasanha"}
             price={15}
-            description={"Camadas de massa, molho cremoso e queijo derretido, puro sabor!"}
+            description={
+              "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -77,7 +92,9 @@ export const Slider = () => {
             altImg={"Açaí"}
             nameProdutc={"Açaí"}
             price={12}
-            description={"Açaí cremoso com toppings irresistíveis, energia e frescor!"}
+            description={
+              "Açaí cremoso com toppings irresistíveis, energia e frescor!"
+            }
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -86,7 +103,9 @@ export const Slider = () => {
             altImg={"Salada"}
             nameProdutc={"Salada"}
             price={10}
-            description={"Salada fresca e colorida com ingredientes saudáveis e saborosos!"}
+            description={
+              "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
+            }
           />
         </SwiperSlide>
       </Swiper>
