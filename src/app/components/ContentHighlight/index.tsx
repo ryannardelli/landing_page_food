@@ -2,7 +2,7 @@ import { PaginationButtons } from "../PaginationButtons";
 
 export const ContentHighlight = () => {
   return (
-    <div className="flex">
+    <div className="flex m-4">
       <div className="flex flex-col gap-2 py-20 sm:mx-auto md:ml-36">
         <h1 className="uppercase text-lg font-bold text-colorSecondary tracking-wide text-center sm:text-center md:text-left">
           Pedidos Especiais
