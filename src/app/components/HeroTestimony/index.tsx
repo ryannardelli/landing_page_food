@@ -12,7 +12,7 @@ export const HeroTestimony = () => {
           <img
             src="/img/img-hero-2.png"
             alt="Image Hero 2"
-            className="relative z-10 w-64 h-full object-contain"
+            className="relative z-10 w-72 h-full object-contain"
           />
         </div>
 
