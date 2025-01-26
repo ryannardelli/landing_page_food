@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <>
       <section className="text-gray-600 body-font bg-white dark:bg-slate-900 font-inter">
-        <div className="container mx-auto flex flex-col-reverse md:flex-col lg:flex-row items-center lg:px-24 lg:py-10">
+        <div className="container py-10 mx-auto flex flex-col-reverse md:flex-col lg:flex-row items-center lg:px-24">
           <div className="lg:flex-grow mt-5 md:mt-0 lg:w-3/5 lg:pr-24 md:pr-16 flex flex-col items-center lg:items-start text-center lg:text-left mb-16 lg:mb-0">
             <h1 className="text-2xl font-extrabold leading-9 tracking-tight mb-3 text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal">
               Se Delicie Com As Maravilhas Da{" "}
