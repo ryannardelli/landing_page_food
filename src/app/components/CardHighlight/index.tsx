@@ -18,10 +18,7 @@ export const CardHighlight = ({
     <div>
       <div className="flex flex-col justify-between p-4 bg-white border-0 rounded-3xl min-h-full relative shadow-lg">
         <span className="absolute -top-5 left-[84%] mt-4 ml-4 bg-colorPrimary p-4 rounded-bl-3xl rounded-tr-3xl">
-          <img
-            src="/img/heart.png"
-            alt="Ireland Flag"
-          />
+          <img src="/img/heart.png" alt="Ireland Flag" />
         </span>
         <span className="absolute top-12 left-0 ml-4"></span>
         <a href="#">
