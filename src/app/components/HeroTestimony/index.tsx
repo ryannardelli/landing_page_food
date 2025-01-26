@@ -4,7 +4,6 @@ export const HeroTestimony = () => {
     return (
         <section className="text-gray-600 body-font bg-white dark:bg-slate-900">
             <div className="container mx-auto flex md:px-24 md:py-10 md:flex-row flex-col-reverse items-center">
-                {/* Seção da Imagem */}
                 <div className="lg:max-w-lg lg:w-full mb-10 md:mb-0 md:w-1/2 w-full flex justify-center">
                     <div className="relative h-80 w-80 rounded-bl-[40px] rounded-tr-[140px] rounded-tl-[140px] rounded-br-[40px] overflow-hidden shadow-lg bg-colorPrimary">
                         <img
@@ -15,7 +14,6 @@ export const HeroTestimony = () => {
                     </div>
                 </div>
 
-                {/* Seção de Conteúdo */}
                 <div className="lg:flex-grow mt-5 md:mt-0 md:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <h1 className="uppercase text-xl font-bold text-colorSecondary tracking-wide">
                         Depoimentos
@@ -30,7 +28,6 @@ export const HeroTestimony = () => {
                     <div className="flex gap-4">
                         <div
                             className="relative w-24 h-[4rem] flex items-center justify-end rounded-tr-full rounded-br-full">
-
                             <img className="absolute right-2 z-30 w-11 h-11 rounded-full border-2 border-gray-200"
                                 src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
                                 alt="avatar" />
