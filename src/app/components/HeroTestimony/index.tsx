@@ -8,7 +8,7 @@ export const HeroTestimony = () => {
                     <div className="relative h-80 w-80 rounded-bl-[40px] rounded-tr-[140px] rounded-tl-[140px] rounded-br-[40px] overflow-hidden shadow-lg bg-colorPrimary">
                         <img
                             src="/img/img-hero-2.png"
-                            alt="Depoimento de cliente"
+                            alt="Image Hero 2"
                             className="absolute inset-0 h-full w-full object-contain"
                         />
                     </div>
