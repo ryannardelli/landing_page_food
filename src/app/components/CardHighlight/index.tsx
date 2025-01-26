@@ -4,7 +4,7 @@ interface CustomCardHighlight {
     altImg: string;
     nameProdutc: string;
     price: number;
-    description: string; // Adicionando a descrição como uma propriedade
+    description: string;
   }
   
   export const CardHighlight = ({ srcImg, altImg, nameProdutc, price, description }: CustomCardHighlight) => {
