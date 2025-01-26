@@ -5,10 +5,8 @@ export const HeroTestimony = () => {
     <section className="text-gray-600 body-font bg-white dark:bg-slate-900">
       <div className="container mx-auto flex md:px-24 md:py-10 md:flex-row flex-col-reverse items-center">
         <div className="lg:max-w-lg lg:w-full mb-10 md:mb-0 md:w-1/2 w-full flex justify-center relative">
-          {/* Quadrado Vermelho */}
           <div className="absolute bottom-0 h-52 w-72 bg-colorPrimary rounded-bl-[40px] rounded-tr-[110px] rounded-tl-[110px] rounded-br-[40px] z-0"></div>
 
-          {/* Imagem */}
           <img
             src="/img/img-hero-2.png"
             alt="Image Hero 2"
