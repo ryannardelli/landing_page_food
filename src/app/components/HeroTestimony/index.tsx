@@ -4,7 +4,7 @@ import { BubbleReverse } from "../BubbleReverse";
 export const HeroTestimony = () => {
   return (
     <>
-      <section className="text-gray-600 body-font bg-white dark:bg-slate-900 relative">
+      <section className="text-gray-600 body-font bg-white dark:bg-slate-900 relative py-6">
         <div className="container mx-auto flex md:px-24 md:py-10 md:flex-col flex-col-reverse lg:flex-row items-center md:gap-12 lg:gap-0">
           <div className="lg:max-w-lg lg:w-full mb-10 md:mb-0 md:w-1/2 w-full flex justify-center relative">
             <div className="absolute bottom-0 h-52 w-72 bg-colorPrimary rounded-bl-[40px] rounded-tr-[110px] rounded-tl-[110px] rounded-br-[40px] z-0"></div>
@@ -29,7 +29,7 @@ export const HeroTestimony = () => {
           </div>
 
           <div className="lg:flex-grow mt-5 md:mt-0 md:w-full lg:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="uppercase text-xl font-bold text-colorSecondary tracking-wide">
+            <h1 className="uppercase text-xl font-bold text-colorSecondary tracking-wide mb-4 md:mb-0">
               Depoimentos
             </h1>
             <h2 className="text-2xl font-extrabold leading-9 tracking-tight mb-4 text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal">
