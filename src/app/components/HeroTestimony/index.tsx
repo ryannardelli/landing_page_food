@@ -23,7 +23,7 @@ export const HeroTestimony = () => {
               </div>
             </div>
 
-            <div className="absolute md:top-96 md:left-36 w-full z-50">
+            <div className="absolute md:top-96 md:left-36 w-full z-50 hidden md:block">
               <BubbleReverse />
             </div>
           </div>
