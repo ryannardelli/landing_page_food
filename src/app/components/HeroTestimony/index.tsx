@@ -2,19 +2,27 @@ import { FaStar } from "react-icons/fa";
 
 export const HeroTestimony = () => {
   return (
-    <section className="text-gray-600 body-font bg-white dark:bg-slate-900">
-      <div className="container mx-auto flex md:px-24 md:py-10 md:flex-row flex-col-reverse items-center">
+    <section className="text-gray-600 body-font bg-white dark:bg-slate-900 relative">
+      <div className="container mx-auto flex md:px-24 md:py-10 md:flex-col flex-col-reverse lg:flex-row items-center md:gap-12 lg:gap-0">
         <div className="lg:max-w-lg lg:w-full mb-10 md:mb-0 md:w-1/2 w-full flex justify-center relative">
           <div className="absolute bottom-0 h-52 w-72 bg-colorPrimary rounded-bl-[40px] rounded-tr-[110px] rounded-tl-[110px] rounded-br-[40px] z-0"></div>
-
           <img
             src="/img/img-hero-2.png"
             alt="Image Hero 2"
             className="relative z-10 w-72 h-full object-contain"
           />
+
+          <div className="absolute flex justify-between items-center w-full top-60 left-12 z-10">
+            <div className="flex justify-center items-center w-1/2 md:w-1/3 lg:w-1/4">
+              <img src="img/icon-1.png" alt="Icon 1" />
+            </div>
+            <div className="flex justify-center items-center w-1/2 md:w-1/3 lg:w-1/2">
+              <img src="img/icon-2.png" alt="Icon 2" />
+            </div>
+          </div>
         </div>
 
-        <div className="lg:flex-grow mt-5 md:mt-0 md:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="lg:flex-grow mt-5 md:mt-0 md:w-full lg:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="uppercase text-xl font-bold text-colorSecondary tracking-wide">
             Depoimentos
           </h1>
