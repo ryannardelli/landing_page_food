@@ -12,7 +12,7 @@ export const HeroTestimony = () => {
             className="relative z-10 w-72 h-full object-contain"
           />
 
-          <div className="absolute flex justify-between items-center w-full top-60 left-12 z-10">
+          <div className="absolute hidden md:flex justify-between items-center w-full top-60 left-12 z-10">
             <div className="flex justify-center items-center w-1/2 md:w-1/3 lg:w-1/4">
               <img src="img/icon-1.png" alt="Icon 1" />
             </div>
