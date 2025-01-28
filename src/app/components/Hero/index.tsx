@@ -3,6 +3,7 @@ import { Bubble } from "../Bubble";
 import { SectionBestSeller } from "../SectionBestSeller";
 import { SectionHighlight } from "../SectionHighlight";
 import { SectionTestimony } from "../SectionTestimony";
+import { SectionAbout } from "../SectionAbout";
 export const Hero = () => {
   return (
     <>
@@ -66,6 +67,7 @@ export const Hero = () => {
       <SectionBestSeller />;
       <SectionHighlight />;
       <SectionTestimony />
+      <SectionAbout />;
     </>
   );
 };

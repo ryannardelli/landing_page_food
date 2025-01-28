@@ -21,5 +21,9 @@ export default {
       },
     },
   },
-  plugins: [flowbite.plugin()],
+  plugins: [
+    flowbite.plugin(),
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    require("@tailwindcss/line-clamp"), // Adiciona o plugin de line-clamp
+  ],
 };
