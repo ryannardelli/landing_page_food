@@ -4,6 +4,7 @@ import { SectionBestSeller } from "../SectionBestSeller";
 import { SectionHighlight } from "../SectionHighlight";
 import { SectionTestimony } from "../SectionTestimony";
 import { SectionAbout } from "../SectionAbout";
+import { Footer } from "../Footer";
 export const Hero = () => {
   return (
     <>
@@ -71,6 +72,7 @@ export const Hero = () => {
       <SectionHighlight />;
       <SectionTestimony />
       <SectionAbout />;
+      <Footer />;
     </>
   );
 };
