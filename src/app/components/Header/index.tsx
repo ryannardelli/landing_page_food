@@ -20,7 +20,7 @@ export const Header = () => {
             </div>
           </span>
         </Navbar.Brand>
-        <div className="order-2 mt-4 md:mt-0 flex items-center md:flex">
+        <div className="order-2 mt-4 lg:mt-0 flex items-center md:flex">
           <div className="flex space-x-8">
             <a
               href="#"

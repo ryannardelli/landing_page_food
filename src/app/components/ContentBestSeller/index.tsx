@@ -1,6 +1,6 @@
 export const ContentBestSeller = () => {
   return (
-    <div className="flex flex-col text-center gap-2 py-20">
+    <div className="flex flex-col text-center gap-2 lg:py-20">
       <h1 className="uppercase text-lg font-bold text-colorSecondary tracking-wide">
         Favorito dos Clientes
       </h1>
