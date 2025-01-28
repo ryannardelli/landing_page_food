@@ -199,7 +199,7 @@ export const Footer = () => {
             </div>
             <span className="text-xl text-center text-[#555555]">
               Copyright ©<a href="https://pagedone.io/"></a> 2025 | Todos os
-              direitos reservados.
+              direitos reservados
             </span>
           </div>
         </div>
