@@ -41,6 +41,12 @@ export const Hero = () => {
                 alt="Image Hero"
                 className="absolute top-0 left-0 right-0 bottom-0 m-auto h-80 w-80 object-cover rounded-full shadow-lg"
               />
+
+              <div className="absolute hidden md:flex">
+                <div className="top-1/4 left-1/2 -translate-x-1/2 md:-top-80 md:left-60 md:-translate-x-1/2 lg:-top-80 lg:left-1/2 lg:-translate-x-1/4">
+                  <Bubble />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -57,11 +63,6 @@ export const Hero = () => {
             img="img/img-mini-card-2.png"
             stars={4}
           />
-        </div>
-        <div className="relative hidden md:flex">
-          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 md:-top-80 md:left-60 md:-translate-x-1/2 lg:-top-80 lg:left-1/2 lg:-translate-x-1/4">
-            <Bubble />
-          </div>
         </div>
       </section>
       <SectionBestSeller />;
