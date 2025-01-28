@@ -2,8 +2,8 @@ import { CardAbout } from "../CardAbout";
 export const HeroAbout = () => {
   return (
     <section className="text-gray-600 body-font bg-white dark:bg-slate-900">
-      <div className="container mx-auto flex lg:px-24 md:py-10 md:flex-col lg:flex-row flex-col items-center">
-        <div className="lg:flex-grow mt-5 md:mt-0 lg:w-1/2 md:w-full flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div className="container mx-auto flex lg:px-24 md:py-10 md:flex-col xl:flex-row flex-col items-center">
+        <div className="lg:flex-grow mt-5 md:mt-0 xl:w-1/2 md:w-full flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="uppercase text-xl font-bold text-colorSecondary tracking-wide mb-4 md:mb-0">
             Nossa história e serviços
           </h1>

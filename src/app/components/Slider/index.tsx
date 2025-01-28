@@ -17,6 +17,7 @@ export const Slider = () => {
             description={
               "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
             }
+            pontuation={4.9}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -28,6 +29,7 @@ export const Slider = () => {
             description={
               "Açaí cremoso com toppings irresistíveis, energia e frescor!"
             }
+            pontuation={4.5}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -39,6 +41,7 @@ export const Slider = () => {
             description={
               "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
             }
+            pontuation={4.2}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -50,6 +53,7 @@ export const Slider = () => {
             description={
               "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
             }
+            pontuation={4.9}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -61,6 +65,7 @@ export const Slider = () => {
             description={
               "Açaí cremoso com toppings irresistíveis, energia e frescor!"
             }
+            pontuation={4.5}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -72,6 +77,7 @@ export const Slider = () => {
             description={
               "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
             }
+            pontuation={4.2}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -83,6 +89,7 @@ export const Slider = () => {
             description={
               "Camadas de massa, molho cremoso e queijo derretido, puro sabor!"
             }
+            pontuation={4.9}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -94,6 +101,7 @@ export const Slider = () => {
             description={
               "Açaí cremoso com toppings irresistíveis, energia e frescor!"
             }
+            pontuation={4.5}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -105,6 +113,7 @@ export const Slider = () => {
             description={
               "Salada fresca e colorida com ingredientes saudáveis e saborosos!"
             }
+            pontuation={4.2}
           />
         </SwiperSlide>
       </Swiper>

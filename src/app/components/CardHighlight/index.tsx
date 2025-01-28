@@ -5,6 +5,7 @@ interface CustomCardHighlight {
   nameProdutc: string;
   price: number;
   description: string;
+  pontuation: number,
 }
 
 export const CardHighlight = ({
@@ -13,6 +14,7 @@ export const CardHighlight = ({
   nameProdutc,
   price,
   description,
+  pontuation,
 }: CustomCardHighlight) => {
   return (
     <div>
@@ -45,7 +47,7 @@ export const CardHighlight = ({
 
           <div className="flex items-center space-x-2">
             <FaStar className="text-yellow-400 text-2xl" />
-            <span className="font-semibold text-2xl text-[#454545] ">4.5</span>
+            <span className="font-semibold text-2xl text-[#454545] ">{pontuation}</span>
           </div>
         </div>
       </div>
