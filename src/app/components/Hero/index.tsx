@@ -47,22 +47,23 @@ export const Hero = () => {
                   <Bubble />
                 </div>
               </div>
+
+              <div className="absolute flex justify-end gap-4 mt-60 hidden md:flex md:flex -ml-[27%]">
+                <MiniCard
+                  name="Batata Frita"
+                  price={12}
+                  img="img/img-mini-card-1.png"
+                  stars={3}
+                />
+                <MiniCard
+                  name="Hamburguer"
+                  price={22}
+                  img="img/img-mini-card-2.png"
+                  stars={4}
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-wrap justify-end gap-4 -mt-[8%] hidden md:flex md:flex md:mr-[15%] lg:mr-[10%]">
-          <MiniCard
-            name="Batata Frita"
-            price={12}
-            img="img/img-mini-card-1.png"
-            stars={3}
-          />
-          <MiniCard
-            name="Hamburguer"
-            price={22}
-            img="img/img-mini-card-2.png"
-            stars={4}
-          />
         </div>
       </section>
       <SectionBestSeller />;
