@@ -5,7 +5,7 @@ export const HeroTestimony = () => {
   return (
     <>
       <section className="text-gray-600 body-font bg-white dark:bg-slate-900 relative py-6">
-        <div className="container gap-8 mx-auto flex lg:px-24 md:py-10 md:flex-col-reverse flex-col-reverse xl:flex-row items-center md:gap-12 xl:gap-4">
+        <div className="container gap-8 mx-auto flex md:px-24 lg:px-24 xl:px-24 2xl:px-48 md:py-10 md:flex-col-reverse flex-col-reverse xl:flex-row items-center md:gap-12 xl:gap-4">
           <div className="lg:max-w-lg lg:w-full mb-10 md:mb-0 md:w-1/2 w-full flex justify-center relative">
             <div className="absolute bottom-0 h-52 w-72 bg-colorPrimary rounded-bl-[40px] rounded-tr-[110px] rounded-tl-[110px] rounded-br-[40px] z-0"></div>
             <img
