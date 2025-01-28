@@ -12,7 +12,7 @@ export const Footer = () => {
               </span>
               <span className="ml-1 text-gray-800 dark:text-gray-200">ood</span>
             </span>
-            <p className="py-8 text-[#555555] text-xl lg:max-w-xs text-center md:text-left">
+            <p className="py-8 text-[#555555] text-xl lg:max-w-xs  md:text-left">
               Saboreie a arte onde cada prato é uma obra-prima culinária
             </p>
           </div>
@@ -198,7 +198,7 @@ export const Footer = () => {
               </a>
             </div>
             <span className="text-xl text-center text-[#555555]">
-              Copyright ©<a href="https://pagedone.io/"></a> 2025 | Todos os
+              Copyright © 2025 | Todos os
               direitos reservados
             </span>
           </div>
