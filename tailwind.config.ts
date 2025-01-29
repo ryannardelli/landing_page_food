@@ -19,6 +19,11 @@ export default {
         colorSecondary: "#1FBF57",
         assets: "#F25A38",
       },
+
+      screens: {
+        'max-md': { max: '834px' },
+        'max-mobile': {max: '480px'}
+      }
     },
   },
   plugins: [

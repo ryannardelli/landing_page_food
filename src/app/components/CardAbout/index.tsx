@@ -4,7 +4,7 @@ export const CardAbout = () => {
       id="features"
       className="px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5x1 mx-auto"
     >
-      <div className="mx-auto grid justify-center gap-12 lg:gap-12 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-2">
+      <div className="mx-auto grid justify-center gap-12 lg:gap-12 sm:grid-cols-2 md:max-w-[64rem]md:grid-cols-2">
         <div className="relative text-center overflow overflow-hidden rounded-3xl border-0 shadow-lg p-2 w-64">
           <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
             <svg
