@@ -49,7 +49,7 @@ export const Header = () => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link href="#" className="text-xl">
-            Home
+          <span className="text-xl text-colorPrimary hover:text-colorPrimary">Home</span>
           </Navbar.Link>
           <MegaMenu.Dropdown
             toggle={
@@ -175,8 +175,8 @@ export const Header = () => {
               </div>
             </ul>
           </MegaMenu.Dropdown>
-          <Navbar.Link href="#" className="text-xl">
-            Ofertas
+          <Navbar.Link href="#" className="text-xl text-black hover:text-colorPrimary">
+            <span className="text-xl hover:text-colorPrimary">Ofertas</span>
           </Navbar.Link>
         </Navbar.Collapse>
       </div>
