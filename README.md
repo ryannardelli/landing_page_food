@@ -43,7 +43,7 @@ Certifique-se de ter instalado em sua máquina:
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/landing_page_food.git
+   git clone https://github.com/ryannardelli/landing_page_food.git
 2. Acesse a pasta do projeto:
    ```sh
    cd landing_page_food
