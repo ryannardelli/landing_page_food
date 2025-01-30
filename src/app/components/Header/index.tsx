@@ -1,6 +1,7 @@
 "use client";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Button, MegaMenu, Navbar } from "flowbite-react";
+import './styles.css';
 
 export const Header = () => {
   return (
