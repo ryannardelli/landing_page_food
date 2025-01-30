@@ -24,7 +24,8 @@ A **Food** é uma landing page moderna e elegante desenvolvida para um restauran
 ⚡ **Carregamento Rápido** - Utilização do Next.js para otimizar o desempenho.  
 🔍 **SEO Amigável** - Melhor indexação nos motores de busca.  
 🛠️ **Componentes Reutilizáveis** - Criados com Tailwind e Flowbite.  
-🎨 **Design Moderno** - Layout intuitivo e atraente.  
+🎨 **Design Moderno** - Layout intuitivo e atraente.
+🎞️ **Carrosséis Interativos** - Utilização do Swiper para exibição dinâmica de conteúdos. 
 
 ---
 
@@ -58,6 +59,6 @@ Certifique-se de ter instalado em sua máquina:
 ### 🤝 Contato
 Se tiver alguma dúvida ou sugestão, entre em contato:
 
-📧 Email: ryan@email.com <br>
-🌐 LinkedIn: linkedin.com/in/ryan <br>
-🐙 GitHub: github.com/seu-usuario
+📧 **Email:** [ryannardelli12@email.com](mailto:ryannardelli12@email.com)  
+🌐 **LinkedIn:** [linkedin.com/in/ryannardelli](https://www.linkedin.com/in/ryannardelli/)  
+🐙 **GitHub:** [github.com/ryannardelli](https://github.com/ryannardelli)  
