@@ -16,6 +16,7 @@ A **Food** é uma landing page moderna e elegante desenvolvida para um restauran
 ## 🔧 Ferramentas que ajudaram muito na construção
 - **Flowbite** - Biblioteca de componentes UI para Tailwind CSS.
 - **SVG Repo** - Repositório de ícones SVG para enriquecer a interface.
+- **Swiper** - Biblioteca para criação de carrosséis e sliders interativos.
 
 ## ✨ Funcionalidades
 
