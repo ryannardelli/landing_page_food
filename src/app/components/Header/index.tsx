@@ -5,7 +5,7 @@ import { Button, MegaMenu, Navbar } from "flowbite-react";
 export const Header = () => {
   return (
     <MegaMenu>
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4 md:space-x-8 font-poppins">
+      <div className="mx-auto space-x-8 flex max-w-screen-xl flex-wrap items-center justify-between p-4 max-md:space-x-0 lg:space-x-8 xl:space-x-8 2x1:space-x-8 font-poppins">
         <Navbar.Brand href="/">
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             <div className="flex items-center gap-3 rtl:space-x-reverse transition-all duration-300 transform hover:scale-105">
