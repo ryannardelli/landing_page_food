@@ -24,7 +24,7 @@ export const ContentHighlight = () => {
           Prato de destaque do nosso menu
         </h2>
       </div>
-      <PaginationButtons onPrev={handlePrevSlide} onNext={handleNextSlide} />;
+      <PaginationButtons onPrev={handlePrevSlide} onNext={handleNextSlide} />
     </div>
   );
 };
